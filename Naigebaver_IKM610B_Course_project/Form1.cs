@@ -151,6 +151,7 @@ namespace Naigebaver_IKM610B_Course_project
                 label1.Text = MajorObject.Read();// Відображення результату
                 пускToolStripMenuItem.Text = "Старт";
             }
+
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)

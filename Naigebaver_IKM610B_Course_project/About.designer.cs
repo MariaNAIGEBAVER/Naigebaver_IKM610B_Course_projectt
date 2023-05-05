@@ -40,18 +40,20 @@ namespace Naigebaver_IKM610B_Course_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(301, 66);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(301, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 120);
+            this.label1.Size = new System.Drawing.Size(251, 120);
             this.label1.TabIndex = 0;
             this.label1.Text = "Розробила \r\nСтудентка групи ІКМ \r\nНайгебавер Марія Тарасівна\r\n\r\nТекст завдання:\r\n" +
     "Текст";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(310, 214);
+            this.button1.Location = new System.Drawing.Point(310, 192);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.Size = new System.Drawing.Size(94, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Закрити";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,9 +66,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(301, 270);
+            this.progressBar1.Location = new System.Drawing.Point(310, 241);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(180, 29);
+            this.progressBar1.Size = new System.Drawing.Size(180, 23);
             this.progressBar1.TabIndex = 2;
             // 
             // timer1
@@ -76,12 +79,13 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // About
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 360);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "About";
             this.Text = "About";
             this.ResumeLayout(false);
