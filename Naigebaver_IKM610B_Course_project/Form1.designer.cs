@@ -119,20 +119,19 @@ namespace Naigebaver_IKM610B_Course_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(251, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(335, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(46, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
             // tbInput
             // 
             this.tbInput.Enabled = false;
-            this.tbInput.Location = new System.Drawing.Point(127, 98);
-            this.tbInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbInput.Location = new System.Drawing.Point(169, 121);
+            this.tbInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbInput.Name = "tbInput";
-            this.tbInput.Size = new System.Drawing.Size(300, 20);
+            this.tbInput.Size = new System.Drawing.Size(399, 22);
             this.tbInput.TabIndex = 1;
             this.tbInput.Click += new System.EventHandler(this.tbInput_Click);
             this.tbInput.TextChanged += new System.EventHandler(this.tbInput_TextChanged);
@@ -145,10 +144,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // bStart
             // 
-            this.bStart.Location = new System.Drawing.Point(237, 140);
-            this.bStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bStart.Location = new System.Drawing.Point(316, 172);
+            this.bStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bStart.Name = "bStart";
-            this.bStart.Size = new System.Drawing.Size(70, 19);
+            this.bStart.Size = new System.Drawing.Size(93, 23);
             this.bStart.TabIndex = 2;
             this.bStart.Text = "Пуск";
             this.bStart.UseVisualStyleBackColor = true;
@@ -163,8 +162,8 @@ namespace Naigebaver_IKM610B_Course_project
             this.довідкаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(818, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1091, 26);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -180,59 +179,60 @@ namespace Naigebaver_IKM610B_Course_project
             this.toolStripSeparator3,
             this.вихідToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(51, 22);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.файлToolStripMenuItem.Text = "Файл ";
             // 
             // новийToolStripMenuItem
             // 
             this.новийToolStripMenuItem.Name = "новийToolStripMenuItem";
             this.новийToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.новийToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.новийToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.новийToolStripMenuItem.Text = "Новий";
             this.новийToolStripMenuItem.Click += new System.EventHandler(this.новийToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(221, 6);
             // 
             // відкритиToolStripMenuItem
             // 
             this.відкритиToolStripMenuItem.Name = "відкритиToolStripMenuItem";
             this.відкритиToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.відкритиToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.відкритиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.відкритиToolStripMenuItem.Text = "Відкрити";
             this.відкритиToolStripMenuItem.Click += new System.EventHandler(this.відкритиToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
             // 
             // зберегтиToolStripMenuItem
             // 
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
             this.зберегтиToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.зберегтиToolStripMenuItem.Text = "Зберегти ";
+            this.зберегтиToolStripMenuItem.Click += new System.EventHandler(this.зберегтиToolStripMenuItem_Click_1);
             // 
             // зберегтиЯкToolStripMenuItem
             // 
             this.зберегтиЯкToolStripMenuItem.Name = "зберегтиЯкToolStripMenuItem";
-            this.зберегтиЯкToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.зберегтиЯкToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.зберегтиЯкToolStripMenuItem.Text = "Зберегти як ..";
             this.зберегтиЯкToolStripMenuItem.Click += new System.EventHandler(this.зберегтиЯкToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(221, 6);
             // 
             // вихідToolStripMenuItem
             // 
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
             this.вихідToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.вихідToolStripMenuItem.Text = "Вихід";
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             // 
@@ -244,26 +244,26 @@ namespace Naigebaver_IKM610B_Course_project
             this.проНакопичувачіToolStripMenuItem,
             this.текстовіФайлиToolStripMenuItem});
             this.роботаToolStripMenuItem.Name = "роботаToolStripMenuItem";
-            this.роботаToolStripMenuItem.Size = new System.Drawing.Size(58, 22);
+            this.роботаToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.роботаToolStripMenuItem.Text = "Робота";
             // 
             // пускToolStripMenuItem
             // 
             this.пускToolStripMenuItem.Name = "пускToolStripMenuItem";
             this.пускToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F9;
-            this.пускToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.пускToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.пускToolStripMenuItem.Text = "Пуск";
             this.пускToolStripMenuItem.Click += new System.EventHandler(this.bStart_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(172, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(216, 6);
             // 
             // проНакопичувачіToolStripMenuItem
             // 
             this.проНакопичувачіToolStripMenuItem.Name = "проНакопичувачіToolStripMenuItem";
-            this.проНакопичувачіToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.проНакопичувачіToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.проНакопичувачіToolStripMenuItem.Text = "Про накопичувачі";
             this.проНакопичувачіToolStripMenuItem.Click += new System.EventHandler(this.проНакопичувачіToolStripMenuItem_Click);
             // 
@@ -274,27 +274,27 @@ namespace Naigebaver_IKM610B_Course_project
             this.зберегтиЯкToolStripMenuItem1,
             this.відкритиToolStripMenuItem1});
             this.текстовіФайлиToolStripMenuItem.Name = "текстовіФайлиToolStripMenuItem";
-            this.текстовіФайлиToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.текстовіФайлиToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.текстовіФайлиToolStripMenuItem.Text = "Текстові файли";
             // 
             // зберегтиToolStripMenuItem1
             // 
             this.зберегтиToolStripMenuItem1.Name = "зберегтиToolStripMenuItem1";
-            this.зберегтиToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
+            this.зберегтиToolStripMenuItem1.Size = new System.Drawing.Size(174, 26);
             this.зберегтиToolStripMenuItem1.Text = "Зберегти";
             this.зберегтиToolStripMenuItem1.Click += new System.EventHandler(this.зберегтиToolStripMenuItem1_Click);
             // 
             // зберегтиЯкToolStripMenuItem1
             // 
             this.зберегтиЯкToolStripMenuItem1.Name = "зберегтиЯкToolStripMenuItem1";
-            this.зберегтиЯкToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
+            this.зберегтиЯкToolStripMenuItem1.Size = new System.Drawing.Size(174, 26);
             this.зберегтиЯкToolStripMenuItem1.Text = "Зберегти як";
             this.зберегтиЯкToolStripMenuItem1.Click += new System.EventHandler(this.зберегтиЯкToolStripMenuItem1_Click);
             // 
             // відкритиToolStripMenuItem1
             // 
             this.відкритиToolStripMenuItem1.Name = "відкритиToolStripMenuItem1";
-            this.відкритиToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
+            this.відкритиToolStripMenuItem1.Size = new System.Drawing.Size(174, 26);
             this.відкритиToolStripMenuItem1.Text = "Відкрити";
             this.відкритиToolStripMenuItem1.Click += new System.EventHandler(this.відкритиToolStripMenuItem1_Click);
             // 
@@ -303,13 +303,13 @@ namespace Naigebaver_IKM610B_Course_project
             this.довідкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.проПрограмуToolStripMenuItem});
             this.довідкаToolStripMenuItem.Name = "довідкаToolStripMenuItem";
-            this.довідкаToolStripMenuItem.Size = new System.Drawing.Size(61, 22);
+            this.довідкаToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.довідкаToolStripMenuItem.Text = "Довідка";
             // 
             // проПрограмуToolStripMenuItem
             // 
             this.проПрограмуToolStripMenuItem.Name = "проПрограмуToolStripMenuItem";
-            this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.проПрограмуToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.проПрограмуToolStripMenuItem.Text = "Про програму ";
             this.проПрограмуToolStripMenuItem.Click += new System.EventHandler(this.проПрограмуToolStripMenuItem_Click);
             // 
@@ -327,20 +327,20 @@ namespace Naigebaver_IKM610B_Course_project
             // dgwOpen
             // 
             this.dgwOpen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwOpen.Location = new System.Drawing.Point(19, 16);
-            this.dgwOpen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgwOpen.Location = new System.Drawing.Point(25, 20);
+            this.dgwOpen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgwOpen.Name = "dgwOpen";
             this.dgwOpen.RowHeadersWidth = 51;
             this.dgwOpen.RowTemplate.Height = 29;
-            this.dgwOpen.Size = new System.Drawing.Size(361, 164);
+            this.dgwOpen.Size = new System.Drawing.Size(481, 202);
             this.dgwOpen.TabIndex = 4;
             // 
             // bSearch
             // 
-            this.bSearch.Location = new System.Drawing.Point(484, 45);
-            this.bSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bSearch.Location = new System.Drawing.Point(645, 55);
+            this.bSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bSearch.Name = "bSearch";
-            this.bSearch.Size = new System.Drawing.Size(70, 19);
+            this.bSearch.Size = new System.Drawing.Size(93, 23);
             this.bSearch.TabIndex = 5;
             this.bSearch.Text = "Пошук";
             this.bSearch.UseVisualStyleBackColor = true;
@@ -348,10 +348,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // tbSearch
             // 
-            this.tbSearch.Location = new System.Drawing.Point(439, 78);
-            this.tbSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbSearch.Location = new System.Drawing.Point(585, 96);
+            this.tbSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbSearch.Name = "tbSearch";
-            this.tbSearch.Size = new System.Drawing.Size(164, 20);
+            this.tbSearch.Size = new System.Drawing.Size(217, 22);
             this.tbSearch.TabIndex = 6;
             // 
             // tabControl1
@@ -360,11 +360,11 @@ namespace Naigebaver_IKM610B_Course_project
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(9, 20);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Location = new System.Drawing.Point(12, 25);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(795, 318);
+            this.tabControl1.Size = new System.Drawing.Size(1060, 391);
             this.tabControl1.TabIndex = 7;
             // 
             // tabPage1
@@ -373,11 +373,11 @@ namespace Naigebaver_IKM610B_Course_project
             this.tabPage1.Controls.Add(this.bStart);
             this.tabPage1.Controls.Add(this.tbInput);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage1.Size = new System.Drawing.Size(787, 292);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage1.Size = new System.Drawing.Size(1052, 362);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Поле введення";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -389,11 +389,11 @@ namespace Naigebaver_IKM610B_Course_project
             this.tabPage2.Controls.Add(this.dgwOpen);
             this.tabPage2.Controls.Add(this.bSearch);
             this.tabPage2.Controls.Add(this.tbSearch);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage2.Size = new System.Drawing.Size(787, 292);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1052, 362);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Робота з файлом";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -401,20 +401,20 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(394, 128);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(525, 158);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(372, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(495, 117);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.splitContainer1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(787, 292);
+            this.tabPage3.Size = new System.Drawing.Size(1052, 362);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Стек/Черга";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -426,7 +426,7 @@ namespace Naigebaver_IKM610B_Course_project
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -449,19 +449,17 @@ namespace Naigebaver_IKM610B_Course_project
             this.splitContainer1.Panel2.Controls.Add(this.Peek_q);
             this.splitContainer1.Panel2.Controls.Add(this.Dequeue);
             this.splitContainer1.Panel2.Controls.Add(this.Enqueue);
-            this.splitContainer1.Size = new System.Drawing.Size(787, 292);
-            this.splitContainer1.SplitterDistance = 376;
-            this.splitContainer1.SplitterWidth = 3;
+            this.splitContainer1.Size = new System.Drawing.Size(1052, 362);
+            this.splitContainer1.SplitterDistance = 502;
             this.splitContainer1.TabIndex = 0;
             // 
             // StackText
             // 
             this.StackText.AutoSize = true;
             this.StackText.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold);
-            this.StackText.Location = new System.Drawing.Point(165, 30);
-            this.StackText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.StackText.Location = new System.Drawing.Point(220, 37);
             this.StackText.Name = "StackText";
-            this.StackText.Size = new System.Drawing.Size(61, 30);
+            this.StackText.Size = new System.Drawing.Size(78, 38);
             this.StackText.TabIndex = 4;
             this.StackText.Text = "Стек";
             this.StackText.Click += new System.EventHandler(this.StackText_Click);
@@ -469,27 +467,26 @@ namespace Naigebaver_IKM610B_Course_project
             // LabelStack
             // 
             this.LabelStack.AutoSize = true;
-            this.LabelStack.Location = new System.Drawing.Point(165, 205);
-            this.LabelStack.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelStack.Location = new System.Drawing.Point(220, 252);
             this.LabelStack.Name = "LabelStack";
-            this.LabelStack.Size = new System.Drawing.Size(61, 13);
+            this.LabelStack.Size = new System.Drawing.Size(78, 17);
             this.LabelStack.TabIndex = 0;
             this.LabelStack.Text = "LabelStack";
             // 
             // Stacktb
             // 
-            this.Stacktb.Location = new System.Drawing.Point(136, 83);
-            this.Stacktb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Stacktb.Location = new System.Drawing.Point(181, 102);
+            this.Stacktb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Stacktb.Name = "Stacktb";
-            this.Stacktb.Size = new System.Drawing.Size(116, 20);
+            this.Stacktb.Size = new System.Drawing.Size(153, 22);
             this.Stacktb.TabIndex = 3;
             // 
             // Peek
             // 
-            this.Peek.Location = new System.Drawing.Point(266, 123);
-            this.Peek.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Peek.Location = new System.Drawing.Point(355, 151);
+            this.Peek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Peek.Name = "Peek";
-            this.Peek.Size = new System.Drawing.Size(83, 26);
+            this.Peek.Size = new System.Drawing.Size(111, 32);
             this.Peek.TabIndex = 2;
             this.Peek.Text = "Peek";
             this.Peek.UseVisualStyleBackColor = true;
@@ -497,10 +494,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // Pop
             // 
-            this.Pop.Location = new System.Drawing.Point(150, 123);
-            this.Pop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Pop.Location = new System.Drawing.Point(200, 151);
+            this.Pop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Pop.Name = "Pop";
-            this.Pop.Size = new System.Drawing.Size(89, 26);
+            this.Pop.Size = new System.Drawing.Size(119, 32);
             this.Pop.TabIndex = 1;
             this.Pop.Text = "Pop";
             this.Pop.UseVisualStyleBackColor = true;
@@ -508,10 +505,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // Push
             // 
-            this.Push.Location = new System.Drawing.Point(33, 122);
-            this.Push.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Push.Location = new System.Drawing.Point(44, 150);
+            this.Push.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Push.Name = "Push";
-            this.Push.Size = new System.Drawing.Size(89, 27);
+            this.Push.Size = new System.Drawing.Size(119, 33);
             this.Push.TabIndex = 0;
             this.Push.Text = "Push";
             this.Push.UseVisualStyleBackColor = true;
@@ -520,10 +517,9 @@ namespace Naigebaver_IKM610B_Course_project
             // LabelQueue
             // 
             this.LabelQueue.AutoSize = true;
-            this.LabelQueue.Location = new System.Drawing.Point(187, 213);
-            this.LabelQueue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelQueue.Location = new System.Drawing.Point(249, 262);
             this.LabelQueue.Name = "LabelQueue";
-            this.LabelQueue.Size = new System.Drawing.Size(65, 13);
+            this.LabelQueue.Size = new System.Drawing.Size(86, 17);
             this.LabelQueue.TabIndex = 5;
             this.LabelQueue.Text = "LabelQueue";
             // 
@@ -531,27 +527,26 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             this.Черга.AutoSize = true;
             this.Черга.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold);
-            this.Черга.Location = new System.Drawing.Point(182, 30);
-            this.Черга.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Черга.Location = new System.Drawing.Point(243, 37);
             this.Черга.Name = "Черга";
-            this.Черга.Size = new System.Drawing.Size(75, 30);
+            this.Черга.Size = new System.Drawing.Size(94, 38);
             this.Черга.TabIndex = 4;
             this.Черга.Text = "Черга";
             // 
             // Queuetb
             // 
-            this.Queuetb.Location = new System.Drawing.Point(149, 83);
-            this.Queuetb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Queuetb.Location = new System.Drawing.Point(199, 102);
+            this.Queuetb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Queuetb.Name = "Queuetb";
-            this.Queuetb.Size = new System.Drawing.Size(126, 20);
+            this.Queuetb.Size = new System.Drawing.Size(167, 22);
             this.Queuetb.TabIndex = 3;
             // 
             // Peek_q
             // 
-            this.Peek_q.Location = new System.Drawing.Point(292, 123);
-            this.Peek_q.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Peek_q.Location = new System.Drawing.Point(389, 151);
+            this.Peek_q.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Peek_q.Name = "Peek_q";
-            this.Peek_q.Size = new System.Drawing.Size(94, 26);
+            this.Peek_q.Size = new System.Drawing.Size(125, 32);
             this.Peek_q.TabIndex = 2;
             this.Peek_q.Text = "Peek_q";
             this.Peek_q.UseVisualStyleBackColor = true;
@@ -559,10 +554,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // Dequeue
             // 
-            this.Dequeue.Location = new System.Drawing.Point(164, 122);
-            this.Dequeue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Dequeue.Location = new System.Drawing.Point(219, 150);
+            this.Dequeue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Dequeue.Name = "Dequeue";
-            this.Dequeue.Size = new System.Drawing.Size(93, 26);
+            this.Dequeue.Size = new System.Drawing.Size(124, 32);
             this.Dequeue.TabIndex = 1;
             this.Dequeue.Text = "Dequeue";
             this.Dequeue.UseVisualStyleBackColor = true;
@@ -570,10 +565,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // Enqueue
             // 
-            this.Enqueue.Location = new System.Drawing.Point(23, 122);
-            this.Enqueue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Enqueue.Location = new System.Drawing.Point(31, 150);
+            this.Enqueue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Enqueue.Name = "Enqueue";
-            this.Enqueue.Size = new System.Drawing.Size(96, 27);
+            this.Enqueue.Size = new System.Drawing.Size(128, 33);
             this.Enqueue.TabIndex = 0;
             this.Enqueue.Text = "Enqueue";
             this.Enqueue.UseVisualStyleBackColor = true;
@@ -583,10 +578,10 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             this.tabPage4.Controls.Add(this.listBox1);
             this.tabPage4.Controls.Add(this.panel1);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(787, 292);
+            this.tabPage4.Size = new System.Drawing.Size(1052, 362);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Com Port";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -594,20 +589,21 @@ namespace Naigebaver_IKM610B_Course_project
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(275, 8);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(367, 10);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(392, 238);
+            this.listBox1.Size = new System.Drawing.Size(521, 292);
             this.listBox1.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(-3, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(-4, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(243, 274);
+            this.panel1.Size = new System.Drawing.Size(324, 337);
             this.panel1.TabIndex = 0;
             // 
             // groupBox2
@@ -624,11 +620,11 @@ namespace Naigebaver_IKM610B_Course_project
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.comboBox4);
             this.groupBox2.Enabled = false;
-            this.groupBox2.Location = new System.Drawing.Point(14, 73);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(19, 90);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(219, 199);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(292, 268);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Налаштування порту";
@@ -636,10 +632,10 @@ namespace Naigebaver_IKM610B_Course_project
             // button2
             // 
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(137, 170);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(183, 209);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 19);
+            this.button2.Size = new System.Drawing.Size(93, 23);
             this.button2.TabIndex = 11;
             this.button2.Text = "Старт";
             this.button2.UseVisualStyleBackColor = true;
@@ -648,10 +644,9 @@ namespace Naigebaver_IKM610B_Course_project
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 15);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(11, 18);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 13);
+            this.label6.Size = new System.Drawing.Size(116, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "Швидкість (біт/с)";
             // 
@@ -662,10 +657,10 @@ namespace Naigebaver_IKM610B_Course_project
             "Xon/Xoff",
             "Аппаратное",
             "Нет"});
-            this.comboBox6.Location = new System.Drawing.Point(8, 171);
-            this.comboBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox6.Location = new System.Drawing.Point(11, 210);
+            this.comboBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(114, 21);
+            this.comboBox6.Size = new System.Drawing.Size(151, 24);
             this.comboBox6.TabIndex = 5;
             this.comboBox6.Text = "Нет";
             // 
@@ -691,30 +686,28 @@ namespace Naigebaver_IKM610B_Course_project
             "57600",
             "115200",
             "128000"});
-            this.comboBox2.Location = new System.Drawing.Point(8, 30);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Location = new System.Drawing.Point(11, 37);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(114, 21);
+            this.comboBox2.Size = new System.Drawing.Size(151, 24);
             this.comboBox2.TabIndex = 1;
             this.comboBox2.Text = "115200";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 156);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(11, 192);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 13);
+            this.label2.Size = new System.Drawing.Size(138, 17);
             this.label2.TabIndex = 6;
             this.label2.Text = "Керування потоком";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 50);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(11, 62);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 13);
+            this.label5.Size = new System.Drawing.Size(77, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Біти даних";
             // 
@@ -726,20 +719,19 @@ namespace Naigebaver_IKM610B_Course_project
             "1.5",
             "2",
             "Нет"});
-            this.comboBox5.Location = new System.Drawing.Point(8, 136);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox5.Location = new System.Drawing.Point(11, 167);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(114, 21);
+            this.comboBox5.Size = new System.Drawing.Size(151, 24);
             this.comboBox5.TabIndex = 4;
             this.comboBox5.Text = "1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 121);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(11, 149);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(92, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Стопові біти ";
             // 
@@ -752,20 +744,19 @@ namespace Naigebaver_IKM610B_Course_project
             "6",
             "7",
             "8"});
-            this.comboBox3.Location = new System.Drawing.Point(8, 65);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox3.Location = new System.Drawing.Point(11, 80);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(114, 21);
+            this.comboBox3.Size = new System.Drawing.Size(151, 24);
             this.comboBox3.TabIndex = 2;
             this.comboBox3.Text = "8";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 86);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(11, 106);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
+            this.label4.Size = new System.Drawing.Size(66, 17);
             this.label4.TabIndex = 8;
             this.label4.Text = "Парність";
             // 
@@ -778,10 +769,10 @@ namespace Naigebaver_IKM610B_Course_project
             "Нет",
             "Маркер",
             "Пробел"});
-            this.comboBox4.Location = new System.Drawing.Point(8, 101);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox4.Location = new System.Drawing.Point(11, 124);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(114, 21);
+            this.comboBox4.Size = new System.Drawing.Size(151, 24);
             this.comboBox4.TabIndex = 3;
             this.comboBox4.Text = "Нет";
             // 
@@ -789,41 +780,40 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Location = new System.Drawing.Point(14, 4);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(19, 5);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(219, 66);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(292, 81);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 15);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(11, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 13);
+            this.label7.Size = new System.Drawing.Size(95, 17);
             this.label7.TabIndex = 11;
             this.label7.Text = "Оберіть порт";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(8, 30);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Location = new System.Drawing.Point(11, 37);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(114, 21);
+            this.comboBox1.Size = new System.Drawing.Size(151, 24);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // statusStrip1
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip1.Location = new System.Drawing.Point(0, 327);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 408);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(818, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1091, 22);
             this.statusStrip1.TabIndex = 8;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -833,14 +823,14 @@ namespace Naigebaver_IKM610B_Course_project
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 349);
+            this.ClientSize = new System.Drawing.Size(1091, 430);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);

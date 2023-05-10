@@ -528,6 +528,16 @@ string disk = "";
                 SetText(InputData); 
             }
         }
+
+        private void зберегтиToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (sfdSave.ShowDialog() == DialogResult.OK) // Виклик діалогу збереження файлу
+            {
+                MajorObject.WriteSaveFileName(sfdSave.FileName); // Запис імені файлу для збереження
+                MajorObject.Generator();
+                MajorObject.SaveToFile(); // метод збереження в файл
+            }
+        }
     }
 
 
